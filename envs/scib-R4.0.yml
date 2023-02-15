@@ -1,0 +1,29 @@
+name: scib-R4.0
+channels:
+  - bioconda
+  - conda-forge
+dependencies:
+  - python>=3.7
+  - r-base=4.0
+  - r-essentials
+  - gsl
+  - r-optparse
+  - r-remotes
+  - r-devtools
+  - r-biocmanager
+  - r-cairo
+  - r-harmony
+  # Seurat dependencies
+  - r-seurat=3
+  - r-seuratobject
+  - bioconductor-multtest
+  - r-sdmtools
+  - r-stringi
+  - r-metap
+  - r-spatstat=1.64
+  # batchelor
+  - bioconductor-batchelor
+  # Liger dependencies
+  - r-liger=0.5.0
+  # conos dependencies
+  - bioconductor-complexheatmap

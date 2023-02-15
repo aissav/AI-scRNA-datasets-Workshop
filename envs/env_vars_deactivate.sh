@@ -1,0 +1,28 @@
+#!/bin/sh
+ 
+CFLAGS=$CFLAGS_OLD
+export CFLAGS
+unset CFLAGS_OLD
+ 
+LDFLAGS=$LDFLAGS_OLD
+export LDFLAGS
+unset LDFLAGS_OLD
+
+# Unset rpy2 library path
+LD_LIBRARY_PATH=$LD_LIBRARY_PATH_OLD
+export LD_LIBRARY_PATH
+unset LD_LIBRARY_PATH_OLD
+
+QT_QPA_PLATFORM=$QT_QPA_PLATFORM_OLD
+export QT_QPA_PLATFORM
+unset QT_QPA_PLATFORM_OLD
+
+# Unset R home path
+R_HOME=${R_HOME_OLD}
+export R_HOME
+unset R_HOME_OLD
+
+# Reset R libs
+R_LIBS=$R_LIBS_OLD
+export R_LIBS
+unset R_LIBS_OLD
