@@ -22,7 +22,7 @@ docker build -t AI-scrna .
 
 ## Run the Docker image
 
-Docker image will run jupyter notebook on port 8888. To change the port with such as 1000, use 1000:8888 insted of 8888:8888.
+>Docker image will run jupyter notebook on port 8888. To change the port with such as 1000, use 1000:8888 insted of 8888:8888.
 
 
 ```
@@ -38,7 +38,7 @@ docker run -p 8888:8888 -v path/to/your/local/files:/AI-scRNA-datasets-Workshop 
 ```
 
 
-Ex:
+>Ex:
 
 
 ```
