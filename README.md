@@ -3,9 +3,10 @@ Workshop on the analysis and integration of scRNA-seq datasets
 
 ## Build the Docker image
 
-> Go to folder where repository downloaded on command line
+You can simply build docker image by running following command on command line.
+&nbsp;
 
-You can simple build docker image by running the line below on command line.
+> Go to folder where repository downloaded on command line
 
 
 ```
