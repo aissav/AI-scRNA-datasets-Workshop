@@ -3,9 +3,11 @@ Workshop on the analysis and integration of scRNA-seq datasets
 
 ## Build the Docker image
 
+All the enviroment will be installed including scripts and data on the docker image. 
+
+Building the docker image may take hours due to installation of the all packages.
+
 You can simply build docker image by running following command on command line.
-
-
 
 
 All the enviroment will be installed including scripts and data on the docker image. 
@@ -38,7 +40,7 @@ docker run -p 8888:8888 -v path/to/your/local/files:/AI-scRNA-datasets-Workshop 
 ```
 
 
->Ex:
+>Example
 
 
 ```
