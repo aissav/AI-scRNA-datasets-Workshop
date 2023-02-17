@@ -13,7 +13,7 @@ You can simply build docker image by running following command on command line.
 
 
 ```
-docker build -t AI-scrna .
+docker build -t ai-scrna-workshop .
 ```
 
 
@@ -24,7 +24,7 @@ docker build -t AI-scrna .
 
 
 ```
-docker run -p 8888:8888 AI-scrna 
+docker run -p 8888:8888 ai-scrna-workshop
 ```
 
 
@@ -32,7 +32,7 @@ docker run -p 8888:8888 AI-scrna
 
 
 ```
-docker run -p 8888:8888 -v path/to/your/local/files:/AI-scRNA-datasets-Workshop AI-scrna 
+docker run -p 8888:8888 -v path/to/your/local/files:/AI-scRNA-datasets-Workshop ai-scrna-workshop
 ```
 
 
@@ -40,6 +40,6 @@ docker run -p 8888:8888 -v path/to/your/local/files:/AI-scRNA-datasets-Workshop 
 
 
 ```
-docker run -p 8888:8888 -v C:\Users\home:/AI-scRNA-datasets-Workshop AI-scrna 
+docker run -p 8888:8888 -v C:\Users\home:/AI-scRNA-datasets-Workshop ai-scrna-workshop
 
 ```
