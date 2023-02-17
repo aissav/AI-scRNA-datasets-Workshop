@@ -14,9 +14,10 @@ All the enviroment will be installed including scripts and data on the docker im
 ## Run the Docker image
 
 Docker image will run jupyter notebook on port 8888. Ex: To change the port with 1000, use 1000:8888 insted of 8888:8888
-'''
+
+```
 docker run -p 8888:8888 AI-scrna 
-'''
+```
 
 > To run the jupyter notebook on your local files, run the following command.
 
