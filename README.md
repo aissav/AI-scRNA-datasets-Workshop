@@ -4,7 +4,12 @@ Workshop on the analysis and integration of scRNA-seq datasets
 ## Build the Docker image
 
 You can simply build docker image by running following command on command line.
-&nbsp;
+
+
+
+
+All the enviroment will be installed including scripts and data on the docker image. 
+
 
 > Go to folder where repository downloaded on command line
 
@@ -13,8 +18,6 @@ You can simply build docker image by running following command on command line.
 docker build -t AI-scrna .
 ```
 
-
-All the enviroment will be installed including scripts and data on the docker image. 
 
 
 ## Run the Docker image
