@@ -84,12 +84,6 @@ done
 # List all environments
 $MAMBA_CMD env list
 
-# Install R packages
-echo "Install R packages through R"
-
-echo "scib pipeline environment..."
-conda run -n "scib-pipeline-R${R_VERSION}" --no-capture-output \
- Rscript -e "remotes::install_github('theislab/kBET', quiet=TRUE)"
 
 
 echo "Done."
