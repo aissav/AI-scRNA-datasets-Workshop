@@ -13,7 +13,6 @@ dependencies:
   - r-biocmanager
   - r-cairo
   - r-harmony
-  # Seurat dependencies
   - r-seurat=3
   - r-seuratobject
   - bioconductor-multtest
@@ -21,9 +20,5 @@ dependencies:
   - r-stringi
   - r-metap
   - r-spatstat=1.64
-  # batchelor
   - bioconductor-batchelor
-  # Liger dependencies
-  - r-liger=0.5.0
-  # conos dependencies
   - bioconductor-complexheatmap
