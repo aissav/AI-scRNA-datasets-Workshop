@@ -18,6 +18,7 @@ WORKDIR AI-scRNA-datasets-Workshop
 RUN conda env create -f workshop_dependencies.yml
 RUN conda run -n workshop Rscript -e "devtools::install_github('theislab/kBET',force=TRUE)"
 RUN conda run -n workshop Rscript -e "devtools::install_github('immunogenomics/lisi')"
+RUN conda run -n workshop pip install --upgrade intervaltree
 
 RUN conda install -c conda-forge nb_conda -y
 WORKDIR /AI-scRNA-datasets-Workshop
