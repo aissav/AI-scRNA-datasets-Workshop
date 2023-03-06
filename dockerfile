@@ -5,7 +5,6 @@ RUN apt-get install -y wget
 RUN apt-get clean
 RUN rm -rf /var/lib/apt/lists/*
 RUN apt-get update
-RUN apt install -y build-essential
 
 ENV CONDA_DIR /opt/conda
 RUN wget --quiet https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh -O ~/miniconda.sh && \
