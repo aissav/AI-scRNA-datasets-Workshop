@@ -1,7 +1,7 @@
 # AI-scRNA-datasets-Workshop
 Workshop on the analysis and integration of scRNA-seq datasets
 
-Workshop environment can be created using two options: <code>Conda environment and Docker image.
+Workshop environment can be created using two options: Conda environment and Docker image.
 * Both options appropriate for mac and windows machines. However, in case of issue in any option, it can be tried with the other option.
 * Conda env image is more preferable for macos and linux. Docker image can be better suited for windows to avoid pre-installed package conflicts.
 ## Prerequisites
