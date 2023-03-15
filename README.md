@@ -1,17 +1,17 @@
 # AI-scRNA-datasets-Workshop
 Workshop on the analysis and integration of scRNA-seq datasets
 
-Workshop environment can be created using two options: Conda environment and Docker image.
-* Both options appropriate for mac and windows machines. However, in case of issue in any option, it can be tried with the other option.
-* Conda env image is more preferable for macos and linux. Docker image can be better suited for windows to avoid pre-installed package conflicts.
+Workshop environment can be created using two options: Conda environment or Docker image.
+* Both options appropriate for macOS, Linux, and Windows machines. However, if there is an issue in one of the options, the other option can be tried.
+* The Conda environment option may be more preferable for macOS and Linux, while the Docker image option may be better suited for Windows to avoid potential conflicts with pre-installed packages.
 ## Prerequisites
-* Anaconda must be installed to create Conda environment. [`install Anaconda`](https://docs.anaconda.com/anaconda/install/)
-* Docker must be installed to create Docker image. [`install Docker`](https://docs.docker.com/get-docker/)
-* Also, this repository must be downloaded.
+* To create a Conda environment, Anaconda must be installed. [`install Anaconda`](https://docs.anaconda.com/anaconda/install/)
+* To create a Docker image, Docker must be installed. [`install Docker`](https://docs.docker.com/get-docker/)
+* Additionally, you must download this repository.
   
 ## Option 1: Create the Conda environment
   
-*Go to folder where repository downloaded on the command line or conda prompt and run the following commands line by line.*
+*Navigate to the folder where the repository was downloaded using the command line or Conda prompt and run the following commands.*
 
 ```
 conda  env create -f workshop_dependencies.yml
@@ -29,22 +29,22 @@ jupyter notebook
 ```
 ## Option 2: Build the Docker image
   
-Building the docker image may take an hour due to installation of the all packages.
+Building the Docker image may take up to an hour due to the installation of all required packages.
 
-You can simply build docker image by running following command on command line.
+To build the Docker image, simply run the following command on the command line.
 
 
-> Go to folder where repository downloaded on the command line.
+> Navigate to the folder where the repository was downloaded using the command line.
 ```
 docker build -t ai-scrna-workshop .
 ```
 ## Run the Docker image
-
-> Docker image will run jupyter notebook on port 8888. To change the port with such as 1000, use 1000:8888 insted of 8888:8888.
+> By default, the Docker image runs Jupyter Notebook on port 8888. If you want to use a different port, such as 1000, you can specify it by changing 8888:8888 to 1000:8888.
 ```
 docker run -p 8888:8888 ai-scrna-workshop
 ```
-> To run the jupyter notebook on your local files, run the following command.
+
+> To run Jupyter Notebook with your local files, run the following command.
 ```
 docker run -p 8888:8888 -v path/to/your/local/files:/AI-scRNA-datasets-Workshop ai-scrna-workshop
 ```
