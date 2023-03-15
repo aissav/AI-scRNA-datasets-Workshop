@@ -21,7 +21,7 @@ Rscript -e "devtools::install_github('theislab/kBET')"
   
 ## Run the Conda environment
   
-*Conda environment created as workshop so, we can start using environment by activating.*
+*A Conda environment has been created with the name "workshop", so you can start using the environment by activating it*
 ```
 conda  activate workshop
 jupyter notebook
