@@ -9,7 +9,7 @@ Workshop environment can be created using two options: Conda environment and Doc
 * Docker must be installed to create Docker image. [`install Docker`](https://docs.docker.com/get-docker/)
 * Also, this repository must be downloaded.
   
-## Create the Conda environment
+## Option 1: Create the Conda environment
   
 *Go to folder where repository downloaded on the command line or conda prompt and run the following commands line by line.*
 
@@ -27,7 +27,7 @@ Rscript -e "devtools::install_github('theislab/kBET')"
 conda  activate workshop
 jupyter notebook
 ```
-## Build the Docker image
+## Option 2: Build the Docker image
   
 Building the docker image may take an hour due to installation of the all packages.
 
