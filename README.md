@@ -1,4 +1,3 @@
-# AI-scRNA-datasets-Workshop
 Workshop on the analysis and integration of scRNA-seq datasets
 -----------
 Workshop environment can be created using two options: Conda environment or Docker image.
