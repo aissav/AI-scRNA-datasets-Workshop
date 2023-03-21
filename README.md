@@ -15,6 +15,7 @@ Workshop environment can be created using two options: Conda environment or Dock
 ```
 conda  env create -f workshop_dependencies.yml
 conda activate workshop
+conda env update -f workshop_dependencies2.yml
 Rscript -e "devtools::install_github('immunogenomics/lisi')"
 Rscript -e "devtools::install_github('theislab/kBET')"
 ```
