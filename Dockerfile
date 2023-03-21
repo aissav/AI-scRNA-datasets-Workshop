@@ -11,11 +11,12 @@ RUN wget --quiet https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86
      /bin/bash ~/miniconda.sh -b -p /opt/conda
 ENV PATH=$CONDA_DIR/bin:$PATH
 
-RUN apt-get install git -y
-RUN git clone https://github.com/aissav/AI-scRNA-datasets-Workshop.git
+COPY . /AI-scRNA-datasets-Workshop
 
 WORKDIR AI-scRNA-datasets-Workshop
+
 RUN conda env create -f workshop_dependencies.yml
+RUN conda run -n workshop conda env update -f workshop_dependencies2.yml
 RUN conda run -n workshop Rscript -e "devtools::install_github('theislab/kBET',force=TRUE)"
 RUN conda run -n workshop Rscript -e "devtools::install_github('immunogenomics/lisi')"
 RUN conda run -n workshop pip install --upgrade intervaltree
