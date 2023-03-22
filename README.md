@@ -1,5 +1,8 @@
 Workshop on the analysis and integration of scRNA-seq datasets
 -----------
+
+You can access the Jupyter notebook, dataset, and precomputed results for all the methods that we will cover during the workshop in [`Google Drive`](https://drive.google.com/drive/folders/1TFwVlZegi5HTeQhOhh8JzgJI9Rf7ugId)
+
 Workshop environment can be created using two options: Conda environment or Docker image.
 * Both options appropriate for macOS, Linux, and Windows machines. However, if there is an issue in one of the options, the other option can be tried.
 * The Conda environment option may be more preferable for macOS and Linux, while the Docker image option may be better suited for Windows to avoid potential conflicts with pre-installed packages.
