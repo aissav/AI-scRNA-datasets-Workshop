@@ -1,0 +1,28 @@
+name: workshop
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  # Methods
+  - scvi-tools=0.16.1
+  - scanorama=1.7.0
+  - r-seurat=3
+  - r-seuratobject
+  - r-spatstat=1.64
+  - r-optparse
+  - r-remotes
+  - r-biocmanager
+  - r-cairo
+  - r-harmony
+  - bioconductor-multtest
+  - r-sdmtools
+  - r-stringi
+  - r-metap
+  - r-spatstat=1.64
+
+  - pip:
+    - scib
+    - bokeh
+    - holoviews
+    - datashader
+    - igraph<0.10
