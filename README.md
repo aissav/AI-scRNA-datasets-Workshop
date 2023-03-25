@@ -16,6 +16,7 @@ Workshop environment can be created using two options: Conda environment or Dock
 *Navigate to the folder where the repository was downloaded using the command line or Conda prompt and run the following commands.*
 
 ```
+cd envs
 conda  env create -f workshop_dependencies.yml
 conda activate workshop
 conda env update -f workshop_dependencies2.yml
@@ -39,6 +40,7 @@ To build the Docker image, simply run the following command on the command line.
 
 > Navigate to the folder where the repository was downloaded using the command line.
 ```
+cd envs
 docker build -t ai-scrna-workshop .
 ```
 ## Run the Docker image
