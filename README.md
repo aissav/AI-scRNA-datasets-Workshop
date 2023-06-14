@@ -58,3 +58,6 @@ docker run -p 8888:8888 -v path/to/your/local/files:/AI-scRNA-datasets-Workshop 
 ```
 docker run -p 8888:8888 -v C:\Users\home:/AI-scRNA-datasets-Workshop ai-scrna-workshop
 ```
+
+## Funding
+This workshop has been supported by the Scientific and Technological Research Council of Turkey [121491 to H.K. and C.E.].
