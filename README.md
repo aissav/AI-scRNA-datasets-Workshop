@@ -60,4 +60,4 @@ docker run -p 8888:8888 -v C:\Users\home:/AI-scRNA-datasets-Workshop ai-scrna-wo
 ```
 
 ## Funding
-H.K, C.E, A.H, O.D and B.O.E are supported by the 1001 project (121E491) funded by the Scientific and Technological Research Council of Turkey [121491 to H.K. and C.E.].
+H.K, C.E, A.H, O.D and B.O.E are supported by the 1001 project (121E491) funded by the Scientific and Technological Research Council of Turkey.
